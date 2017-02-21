@@ -1,0 +1,35 @@
+/*
+#74ccd3 - light blue
+#b7db63 - light green
+*/
+
+#scene1 {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: #74ccd3;
+}
+#diag {
+	width: 200vw;
+	height: 100vh;
+	position: absolute;
+	top: -50vh;
+	left: -50vw;
+	background-color: #b7db63;
+	-webkit-transform-origin: 50% 100%;
+	-moz-transform-origin: 50% 100%;
+	-ms-transform-origin: 50% 100%;
+	-o-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+#scroll {
+	height: 4000px;
+}
